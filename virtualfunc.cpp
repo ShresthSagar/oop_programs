@@ -7,7 +7,7 @@ class base
      public :
                void setdatabase(int a)
                {
-                    cout<<"setdatabase called from base class\n";
+                    cout<<"setdatabase() called from base class\n";
                     data_base = a;
                }
 
@@ -17,7 +17,6 @@ class base
                     cout<<"Private data member of base class:"<<data_base<<"\n";
                }
 };
-
 
 class derived : public base
 {
@@ -38,11 +37,9 @@ class derived : public base
                     cout<<"Showdatabase() called from derived class(virtual function in base class)\n";
                }
 
-               void setdatabase()
+               void setdatabase(int)
                {
-                    cout<<"setdatabase called from derived class \n";
-
-
+                    cout<<"setdatabase() called from derived class \n";
                }
 
 };
@@ -53,7 +50,5 @@ int main()
      base *b = &d ;
      b->setdatabase(5);
      b->showdatabase();
-  //   b->setdataderived(10);
-  //   b->showdataderived();
     return 0;
 }
