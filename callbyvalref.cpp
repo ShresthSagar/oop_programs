@@ -3,21 +3,21 @@ using namespace std;
 
 void swapref(int &a, int &b)
 {
-cout<<"Swapping by Call by Reference :\n";
+cout<<"\nSwapping by Call by Reference :\n";
      int temp = a;
      a = b;
      b = temp;
 }
 void swapval(int a, int b)
 {
-cout<<"Swapping by Call by Value :\n";
+cout<<"\nSwapping by Call by Value :\n";
      int temp = a;
      a = b;
      b = a;
 }
 
 int main()
-     cout<<"Call_by_value_c++_program";
+     cout<<"\nCall_by_value_c++_program";
 {
      int a, b ;
      cout<<"Enter a=";
