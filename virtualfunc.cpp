@@ -13,8 +13,8 @@ class base
 
                virtual void showdatabase()
                {
-                    cout<<"showdatabase() called from base class\n";
-                    cout<<"Private data member of base class:"<<data_base<<"\n";
+                    cout<<"showdatabase() called from base class\t";
+                    cout<<"Private data member of base class:"<<data_base<<"\t";
                }
 };
 
