@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include<conio.h>
 using namespace std;
 
 class complex_no
@@ -17,13 +17,13 @@ public :
      {
           cout<<"Complex no. is : "<<re<<"+i("<<img<<")\n";
      }
-     void addre(int a)
+     void addre(int c)
      {
-          re+=a;
+          re+=c;
      }
-     void addimg(int b)
+     void addimg(int d)
      {
-          img+=b;
+          img+=d;
      }
 };
 
