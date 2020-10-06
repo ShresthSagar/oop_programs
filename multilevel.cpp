@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//multilevel inheritance code
 class base
 {
      int private_data;
@@ -44,7 +44,7 @@ class derived : public intermediate
                     cout<<"private data of derived class : "<<data2<<"\n";
                }
 };
-
+//driver function
 int main()
 {
      derived d;
