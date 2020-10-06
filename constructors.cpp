@@ -3,7 +3,7 @@
 using namespace std;
 
 class student
-
+//name of students
 {
      char name[20];
      int roll;
